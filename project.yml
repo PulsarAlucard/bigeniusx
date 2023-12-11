@@ -1,0 +1,7 @@
+id: '6f572acd-7633-40e7-eadf-08dbfa1c9dae'
+version: 'v1.1'
+name: '001'
+description: '001'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark'
+  version: '1.2.0'
