@@ -1,0 +1,1409 @@
+id: 'e708af35-355e-4a8e-95c4-c08193dbd8db'
+name: 'Item'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '7217f656-cabc-4fbd-98f8-c21191a5d9e7'
+    name: 'timestamp'
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '42911c6e-5bd5-463f-b21d-46e9c90bc0d3'
+    name: 'No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f5cb128e-0ccd-448d-9e42-96bc5bd37ad1'
+    name: 'No_ 2'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '01bde2cd-85cc-49a3-b20b-3f4d56786c06'
+    name: 'Description'
+    dataType:
+      length: 50
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5ef9b612-6c7f-4922-8557-21dcdf43644b'
+    name: 'Search Description'
+    dataType:
+      length: 50
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6f4ba7eb-09d4-4f6e-bb14-9c5345a988bc'
+    name: 'Description 2'
+    dataType:
+      length: 50
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3c74952a-c1f4-4b3c-8f7f-7ddbf2df1797'
+    name: 'Base Unit of Measure'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '000b3bee-133f-4772-a25c-c0126bacb4da'
+    name: 'Price Unit Conversion'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ff6ac4b4-25db-4185-b369-79bbca077052'
+    name: 'Type'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2aae9345-d416-42d5-911e-159bce1a91bd'
+    name: 'Inventory Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7d207251-cd41-4d60-85bb-beb725d3bcb7'
+    name: 'Shelf No_'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '94cb59d0-17fe-4be9-b040-3b5a74571a47'
+    name: 'Item Disc_ Group'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8a0e6645-95c9-460a-87ac-a92248f67bb1'
+    name: 'Allow Invoice Disc_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c20f0622-71c1-486a-b67b-df17ae694afd'
+    name: 'Statistics Group'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c25e3e01-25df-43b1-8d56-0e13577960ff'
+    name: 'Commission Group'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b4087ac5-e60b-4c24-8f5b-cf31512e3809'
+    name: 'Unit Price'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '06892ff6-f4c4-40d0-840e-5713c5d2db78'
+    name: 'Price_Profit Calculation'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c7d8673c-e5ea-421e-8f7a-f55b416d14ef'
+    name: 'Profit _'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b9644a87-8059-498c-ba7f-692e23a55415'
+    name: 'Costing Method'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5b432029-9bba-4b94-8e64-95f2023c72ab'
+    name: 'Unit Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f2ef5e1c-4826-4aee-b750-1fd9a58ccdb8'
+    name: 'Standard Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fdb2d93e-e91a-4180-801a-7493c4e39af6'
+    name: 'Last Direct Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0c85a20b-e297-4fcb-a69c-c7e11b383068'
+    name: 'Indirect Cost _'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a9c425ab-d062-4d1d-bfe7-499590e57c66'
+    name: 'Cost is Adjusted'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8aa8b29a-1ade-43ca-85f4-b31377bf8f7c'
+    name: 'Allow Online Adjustment'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '16444b5d-fd82-4009-838f-165999a7c321'
+    name: 'Vendor No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd1b3a764-b8f1-4498-ac76-fb9867a9f839'
+    name: 'Vendor Item No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2ccbd818-4dca-4a7e-8774-00afff331cc5'
+    name: 'Lead Time Calculation'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9dc0995b-ea30-4ea3-8549-bfebbc22dfe7'
+    name: 'Reorder Point'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '668bf990-d701-4833-bf53-2c44fe188891'
+    name: 'Maximum Inventory'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9dc69056-91bc-4e7c-84cb-9a10fcf64781'
+    name: 'Reorder Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8c6a8c08-57ba-4a2b-b389-5913ff445a36'
+    name: 'Alternative Item No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2133df32-45f8-4710-a015-a005b80ab844'
+    name: 'Unit List Price'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'aee6a0b7-78c1-4353-8333-f1c99ddf1565'
+    name: 'Duty Due _'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'add83a4d-624b-4977-ab4c-9ad194a17750'
+    name: 'Duty Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5a0706e9-de1b-498c-9672-3e19884425e3'
+    name: 'Gross Weight'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd69eeac5-e7a9-487b-9f82-ad1dacaebdc8'
+    name: 'Net Weight'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a974920a-ce27-4101-b2dd-e2ab5465ca39'
+    name: 'Units per Parcel'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '78688d30-0e1f-4869-abcd-a92b041658d1'
+    name: 'Unit Volume'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1bad50d9-c03d-45cd-b605-15e4205a7bdf'
+    name: 'Durability'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5d4549f2-4b2e-4363-b9e7-c1697c9c344b'
+    name: 'Freight Type'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c52d5637-26de-43b1-85ad-717daf81ccac'
+    name: 'Tariff No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b339c4ae-675d-42c2-aac3-551b326ead00'
+    name: 'Duty Unit Conversion'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '86fce8cf-0a72-4f09-8fed-6f3b60f0b83b'
+    name: 'Country_Region Purchased Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b8b73ba7-c6db-47d9-bfc9-b801a7288e24'
+    name: 'Budget Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e30b60d5-c4d5-4d1a-bd37-03266be7ae32'
+    name: 'Budgeted Amount'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3f24d090-0a5d-40b4-b84e-5b7bd9be9a51'
+    name: 'Budget Profit'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fe37115c-a8c3-412c-9af8-cd584e31e83b'
+    name: 'Blocked'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '30a104a0-005d-40da-9bc3-2a3ade29327b'
+    name: 'Last Date Modified'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a8c7f490-6ce0-4fba-8b17-90b4cd3ec067'
+    name: 'Last Time Modified'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '30f05fcd-6855-4b77-b120-7d15951b8c1a'
+    name: 'Price Includes VAT'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '165af022-5527-40fb-b93c-ffc325fcc647'
+    name: 'VAT Bus_ Posting Gr_ (Price)'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '52d8be53-704a-469f-a029-2d7ea26c12ea'
+    name: 'Gen_ Prod_ Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ad97342c-54ec-47b9-b5c0-d59dfc0dc40a'
+    name: 'Picture'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2a419531-02ea-4720-ab2d-185ba64c3075'
+    name: 'Country_Region of Origin Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '625ef4ac-b530-4217-8c8e-7ffad565317d'
+    name: 'Automatic Ext_ Texts'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6df25c35-5518-400a-b4ff-e16d00af68a4'
+    name: 'No_ Series'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9b0b495e-a1b8-4292-aee5-6913abb0a58c'
+    name: 'Tax Group Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3224f350-2c38-4c39-9e01-1afeed331c51'
+    name: 'VAT Prod_ Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '19668df0-7f3b-444f-b315-30347b0db18d'
+    name: 'Reserve'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '15b5b6c8-9d5d-49e2-bfd4-9f606edc3866'
+    name: 'Global Dimension 1 Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3ae7372d-0039-4acb-a6e0-1eebb63ca7cb'
+    name: 'Global Dimension 2 Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '567be6c1-9341-4198-89dd-7c9596c345a7'
+    name: 'Stockout Warning'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '341c4f64-031a-4711-a7ce-ec3bfd651316'
+    name: 'Prevent Negative Inventory'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f378a14e-2d30-4818-bc89-43847a2b218b'
+    name: 'Application Wksh_ User ID'
+    dataType:
+      length: 128
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ae74c527-991b-43cd-a8b3-c2c13a02ccc2'
+    name: 'Assembly Policy'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c3b66a21-84f9-4d42-9ade-504ff39d0716'
+    name: 'GTIN'
+    dataType:
+      length: 14
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4ae48474-1764-4a99-9106-1ecc4d62a17d'
+    name: 'Default Deferral Template Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2345f549-8223-44e8-9824-d06394ee98a7'
+    name: 'Low-Level Code'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c6f42f00-f956-4679-bbf0-ee19e6558098'
+    name: 'Lot Size'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '539420f6-5a85-4842-adc6-6ec508f317a5'
+    name: 'Serial Nos_'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9a06fc68-c592-4cc0-801f-8d769c0851f4'
+    name: 'Last Unit Cost Calc_ Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd8bcea8a-8bd2-4018-bb87-00d0ae38097a'
+    name: 'Rolled-up Material Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '24d9c8e8-eb0d-4978-a8cc-97bd6c88a988'
+    name: 'Rolled-up Capacity Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c02b97a2-df54-45f4-b52e-a3301252e6d4'
+    name: 'Scrap _'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '28087054-61df-4764-8a5c-6c2b5f85bec6'
+    name: 'Inventory Value Zero'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '41b958e0-469c-4c5f-a936-f991ace25616'
+    name: 'Discrete Order Quantity'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0aed2b2c-dba5-459a-9360-fb0ce1106e4f'
+    name: 'Minimum Order Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bbb6144d-9ddd-4dbd-9cb9-38dcc1e01249'
+    name: 'Maximum Order Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd493cf24-eefe-4e73-949a-16906d582831'
+    name: 'Safety Stock Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b931b504-363b-49bb-b581-445c3cc85cce'
+    name: 'Order Multiple'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ef4b13e0-1af1-44fd-bf0f-c5424097564b'
+    name: 'Safety Lead Time'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '104ebe1f-4c84-433b-870c-a76826194834'
+    name: 'Flushing Method'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd44feb82-27ae-4657-836c-6765f5cad217'
+    name: 'Replenishment System'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5275575f-bd92-4a53-ba72-b0724100c170'
+    name: 'Rounding Precision'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2960a555-2cfe-4337-8402-500ad955b34a'
+    name: 'Sales Unit of Measure'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c32e61ea-8b79-46e3-86ef-cc8108e9e8a2'
+    name: 'Purch_ Unit of Measure'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '20314f30-2cc1-4928-b4b9-ec638439725d'
+    name: 'Time Bucket'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e9697f5f-0797-4e0e-8f0f-63ca87783fcb'
+    name: 'Reordering Policy'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9ec10881-81b2-419b-b4e1-6e7739ca395b'
+    name: 'Include Inventory'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '25165303-c381-45f9-84a3-bece787d88ed'
+    name: 'Manufacturing Policy'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ae149810-6181-403f-a658-aab65d559606'
+    name: 'Rescheduling Period'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'dc60bfd0-a17b-4852-895c-1b5d8dc5fea1'
+    name: 'Lot Accumulation Period'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b6d98ab8-9ba3-4a47-b649-9b3bdacae6d3'
+    name: 'Dampener Period'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '17efe81e-66cb-45e6-acce-a3acbd603a2c'
+    name: 'Dampener Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fe6dbaef-4ddc-4540-9bfa-3e8b9a520cf3'
+    name: 'Overflow Level'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1f3eedae-80ac-4b63-a391-f9411116ffdd'
+    name: 'Manufacturer Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd91320a3-bc5b-4077-b390-e9d82a36aa0e'
+    name: 'Item Category Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '17fe5d70-0ab4-4bc0-9629-03c9832bff0b'
+    name: 'Created From Nonstock Item'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '94e8b386-2b4c-4b1f-b82f-d97a23e80fe5'
+    name: 'Product Group Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3c623ea0-b67b-47d7-bb23-0bda68ece88c'
+    name: 'Service Item Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '60988335-5824-4fe1-9779-bdb5c10f73ca'
+    name: 'Item Tracking Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '24120878-a5ba-4992-99ed-29f3783b5b52'
+    name: 'Lot Nos_'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9b0670df-0146-43d8-8435-de6fd1915e1d'
+    name: 'Expiration Calculation'
+    dataType:
+      length: 32
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8d40e282-4434-493b-9607-156093987e56'
+    name: 'Warehouse Class Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0f17c082-4801-46e5-ac5f-9df3d082f208'
+    name: 'Special Equipment Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'cbcbddd6-56ef-4225-a60e-4c9cd23a0296'
+    name: 'Put-away Template Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9d6fc6b7-1a68-4e07-8e4d-c4c371c866c9'
+    name: 'Put-away Unit of Measure Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '042ab2c2-6c14-4fe2-8d4a-eda53a42ac13'
+    name: 'Phys Invt Counting Period Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c4863b1b-8cc8-4514-8032-0249c19d348b'
+    name: 'Last Counting Period Update'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0f1c0a86-fd73-45a2-950e-cb564527f35b'
+    name: 'Use Cross-Docking'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f016e34b-0e1e-46f9-b3ea-2e899833192f'
+    name: 'Next Counting Start Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ecc852e7-6e62-4598-ad35-e7a84db5d593'
+    name: 'Next Counting End Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ee3b740a-0af5-4c1d-95a5-e67dd7272f3d'
+    name: 'Routing No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd9e77077-2009-4759-bc69-5c076d72d9ca'
+    name: 'Production BOM No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3366e170-f900-4f50-8787-71f9d5435338'
+    name: 'Single-Level Material Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5362d16d-71a9-47e9-9388-81a5e2a5b696'
+    name: 'Single-Level Capacity Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '23667c41-b6d4-4e31-b213-c64af109834f'
+    name: 'Single-Level Subcontrd_ Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c8832167-612a-4960-8aa0-5de4ffc7ffd1'
+    name: 'Single-Level Cap_ Ovhd Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '962ecbaf-a983-41fc-9bc7-ede24e9318ff'
+    name: 'Single-Level Mfg_ Ovhd Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '39fe9fc1-05bb-4bd4-b11f-294fadadb242'
+    name: 'Overhead Rate'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '84619510-012e-4b3c-95f1-a068ba912a76'
+    name: 'Rolled-up Subcontracted Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'dce6e703-f892-454e-85cb-332f127f4200'
+    name: 'Rolled-up Mfg_ Ovhd Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd9070879-6be0-4d61-b631-cc4ebd81fdb3'
+    name: 'Rolled-up Cap_ Overhead Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2ebb8941-6198-411c-a6bd-f73ca66816a4'
+    name: 'Order Tracking Policy'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9f77999f-47a0-4fc9-a352-ca08b4060464'
+    name: 'Critical'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fd9426cc-b463-4e34-9742-b7b385c14244'
+    name: 'Common Item No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2'
+  - '$sourcesystem#id#ebd0779a-67bb-4fd9-9573-a23b703d786a'
+  - '$initial#name#item'
+propertyValues: []

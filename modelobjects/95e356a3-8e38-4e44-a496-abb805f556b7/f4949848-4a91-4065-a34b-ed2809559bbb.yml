@@ -1,0 +1,1015 @@
+id: 'f4949848-4a91-4065-a34b-ed2809559bbb'
+name: 'Sales Invoice Line'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '9d56f38f-0e4a-44e6-9246-846bc5375cc8'
+    name: 'timestamp'
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'cb0fe53d-3675-4b79-9264-6a05362ccb19'
+    name: 'Document No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a8f4d2ac-69b6-4bd1-a2e6-c0ebe665c5d4'
+    name: 'Line No_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '72320f4c-7c93-4d0d-b836-93f6e3930fec'
+    name: 'Sell-to Customer No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2bc145d6-0550-4d66-94e7-a3dc4f62747f'
+    name: 'Type'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3f55a0d1-34d4-4e9a-acab-50b626c7aea4'
+    name: 'No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd6ec90cc-9f90-4cd3-821c-0ae874092218'
+    name: 'Location Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a626cac3-f6a0-4493-8bb4-72c749747bba'
+    name: 'Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c8577bcf-9950-4d81-b9f6-48ff776588b0'
+    name: 'Shipment Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2d6fc8f8-82f1-4825-9769-67dc79b283bb'
+    name: 'Description'
+    dataType:
+      length: 50
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5661d9d6-7b83-4eb0-97e5-1135ac44941c'
+    name: 'Description 2'
+    dataType:
+      length: 50
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '33e1154d-3dc0-4bf7-b273-c7307dd8fee9'
+    name: 'Unit of Measure'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bdb5393f-5e3e-4dab-bdbe-e451ab1bc736'
+    name: 'Quantity'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '28f7a692-2a29-4b98-a25c-96c33e4073ba'
+    name: 'Unit Price'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5594f84d-4b0d-433c-a3bd-0b28fc176282'
+    name: 'Unit Cost (LCY)'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f1f83196-48bb-452b-8d67-225c9871bc9d'
+    name: 'VAT _'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '901e8359-53ee-4d43-b91c-744e5f25506a'
+    name: 'Line Discount _'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e9d7b693-0329-4c04-a56c-64c96240a3f9'
+    name: 'Line Discount Amount'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4245196a-4a29-4da2-9ee6-c9dc10f8b156'
+    name: 'Amount'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '257bfb29-585e-4f06-8c11-ccd3e6a7a659'
+    name: 'Amount Including VAT'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ca7cd8c6-dccc-4834-9168-9f89aeec1972'
+    name: 'Allow Invoice Disc_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e49ca1e1-f9a4-4310-808f-24d2d2ad207f'
+    name: 'Gross Weight'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bdb75ab3-f95e-4396-9ad1-42aaebb22a4b'
+    name: 'Net Weight'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c93f134e-1d95-47fa-b029-b018385b10e0'
+    name: 'Units per Parcel'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2253ea53-8a8d-48d9-a2d5-92efca7b9ded'
+    name: 'Unit Volume'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b0646f6b-c786-4278-96a2-a0a91a13d48b'
+    name: 'Appl_-to Item Entry'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '816132d0-d19f-41a1-9b4c-4a71a392caa7'
+    name: 'Shortcut Dimension 1 Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '282ecc39-e7aa-4621-8399-d00b7c091878'
+    name: 'Shortcut Dimension 2 Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'eb877dd4-3900-491d-859e-735cfe517db2'
+    name: 'Customer Price Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4571d696-f0ed-4ebc-ba68-ad6148d8b143'
+    name: 'Job No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1a1491e7-f3b9-4657-b42f-954e8a3e1bd8'
+    name: 'Work Type Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e536ea79-9dea-435f-b90d-8e06df09036a'
+    name: 'Shipment No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '74c510d4-2ba1-4720-b537-5d752e29554f'
+    name: 'Shipment Line No_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '56a1178a-619d-4f21-8653-2d42b8ef8e3b'
+    name: 'Bill-to Customer No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1fe6158d-a893-4feb-85ee-40216a24ba96'
+    name: 'Inv_ Discount Amount'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8d7a00d3-b346-4a19-9fdb-02ce6b3140b5'
+    name: 'Drop Shipment'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '03d77fb3-76e9-4fec-ba08-f0f060f32b78'
+    name: 'Gen_ Bus_ Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '00804b42-e47a-4450-9f4b-f36fa8b006e8'
+    name: 'Gen_ Prod_ Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8cd87155-f593-4a7e-ab25-5ccba05a7010'
+    name: 'VAT Calculation Type'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2db242c6-1a5b-467e-b24f-742c9aa0c714'
+    name: 'Transaction Type'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd9e5be98-6463-4883-9332-034d1362cb5c'
+    name: 'Transport Method'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5adcea2e-3749-4728-9c04-698ec20e6574'
+    name: 'Attached to Line No_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '61868754-b3c9-4a30-8265-bada531e4cee'
+    name: 'Exit Point'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a8dce995-79e7-4934-8797-2bcb814abc74'
+    name: 'Area'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b36355ad-0f38-4be4-8a7e-dccb05c92585'
+    name: 'Transaction Specification'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '593d03df-dfc9-4032-8038-e7d23508bd1e'
+    name: 'Tax Category'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '26551b5b-c6ff-45eb-ac96-0fee20e82843'
+    name: 'Tax Area Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b7e215ac-4e97-49fa-8ba8-c375a13e014a'
+    name: 'Tax Liable'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8d42d0e6-4b29-429d-b60e-0b9f252bfc13'
+    name: 'Tax Group Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7cbfb11b-3f07-4589-bd22-378fca2e4dcf'
+    name: 'VAT Clause Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7837d7ae-7f30-4ee3-b2ed-8fd25f5cca48'
+    name: 'VAT Bus_ Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c9b5d2e7-6f79-4bd5-bbdd-25dd5d037bea'
+    name: 'VAT Prod_ Posting Group'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fea99187-256c-42ab-b8d6-d5cb2201be5f'
+    name: 'Blanket Order No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '023c13c4-fbdb-4fba-a47e-cd645df77356'
+    name: 'Blanket Order Line No_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '7d97b7ae-d44b-4777-8ab7-edc0b913aa13'
+    name: 'VAT Base Amount'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '17ca3de5-79e7-470b-b976-2e467f1d83a0'
+    name: 'Unit Cost'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2dd0ed78-4c7c-461a-85d3-7c5c4443dafc'
+    name: 'System-Created Entry'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '438f3411-d0da-4473-bf4f-2f27d1172d18'
+    name: 'Line Amount'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '872cdf5f-4790-4590-b219-5301f15c8ed2'
+    name: 'VAT Difference'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e21246fd-4288-43ab-93ea-d30373ac12a9'
+    name: 'VAT Identifier'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5d9f3eeb-ee70-4e31-88ab-d72f12ba147d'
+    name: 'IC Partner Ref_ Type'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'cf50ffbb-3813-4faa-9743-c95e539065e1'
+    name: 'IC Partner Reference'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '6182f65b-eb8e-414f-8d06-4423aa38847e'
+    name: 'Prepayment Line'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '67630896-7f10-4be8-88e2-d35b830e2827'
+    name: 'IC Partner Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '95fa81f5-8d66-41c1-8f89-9e79367760d8'
+    name: 'Posting Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '74122f9e-6f16-4045-9f04-b2fe0b514a9a'
+    name: 'Dimension Set ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '075e7d28-268a-4aba-b23a-f39df432caa5'
+    name: 'Job Task No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '19173890-3f63-4639-94da-d360b3179268'
+    name: 'Job Contract Entry No_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '665475a0-fe71-4ce6-8136-6770c953fc68'
+    name: 'Deferral Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9884bbbf-0dbf-41f2-91ec-474d7e34c180'
+    name: 'Variant Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e8152eb7-8e2a-4f30-b714-50a218dcdf71'
+    name: 'Bin Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '38a40fdf-874a-4c3e-8c81-23af57624253'
+    name: 'Qty_ per Unit of Measure'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '9338ce6e-225d-4b91-9cf3-7afd948e231f'
+    name: 'Unit of Measure Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '295ae2a0-f34a-4806-9deb-390df438e6a1'
+    name: 'Quantity (Base)'
+    dataType:
+      scale: 20
+      precision: 38
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5f0f5f97-cb9b-428c-889d-420be4f65b89'
+    name: 'FA Posting Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '52275e41-59d4-4203-8340-434dd1de0fd6'
+    name: 'Depreciation Book Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '13f17f9e-490c-4662-b948-6456dbdc7551'
+    name: 'Depr_ until FA Posting Date'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4d58b83d-afd4-4896-acd0-69fbf686c9af'
+    name: 'Duplicate in Depreciation Book'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a8a3b5cc-cc31-4264-b72a-f5608ce6b3d8'
+    name: 'Use Duplication List'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '64aa4066-034d-463a-be42-e7e2a703130a'
+    name: 'Responsibility Center'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fe5270c7-3edb-4386-9114-0da21962e569'
+    name: 'Cross-Reference No_'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f40364bb-1263-47e5-bfd8-cce0f86ac3e7'
+    name: 'Unit of Measure (Cross Ref_)'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e33f233c-dd90-443e-aa16-20b3e20aa428'
+    name: 'Cross-Reference Type'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '93a26461-428f-40a7-b482-2dd98c18744d'
+    name: 'Cross-Reference Type No_'
+    dataType:
+      length: 30
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8a0c8d87-fffa-4bd7-9d86-eb4a498ecba1'
+    name: 'Item Category Code'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ba026cb8-851c-4ef9-9bec-35d4fabe1ae5'
+    name: 'Nonstock'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'bc4f9cb2-3034-470d-82b1-cb7ae140ac15'
+    name: 'Purchasing Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '14cc8e43-69bc-4d4a-b72f-353a0bf7933b'
+    name: 'Product Group Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'ef7f5432-79b8-4ea5-8a68-bdd835e87b6b'
+    name: 'Appl_-from Item Entry'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'fea54d4c-8145-4be3-9bda-1f4fb983e79c'
+    name: 'Return Reason Code'
+    dataType:
+      length: 10
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a3ce56db-96b1-4699-8e02-cf40304df7ae'
+    name: 'Allow Line Disc_'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '3143652a-ea4a-445a-b2c1-b81521dc9a5b'
+    name: 'Customer Disc_ Group'
+    dataType:
+      length: 20
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#dcfb76e2-57c3-4849-b250-f7337c2b99d2'
+  - '$sourcesystem#id#ebd0779a-67bb-4fd9-9573-a23b703d786a'
+  - '$initial#name#sales_invoice_line'
+propertyValues: []
