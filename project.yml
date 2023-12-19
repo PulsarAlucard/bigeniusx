@@ -9,3 +9,6 @@ sourceSystems:
   - id: 'ebd0779a-67bb-4fd9-9573-a23b703d786a'
     name: 'ERP'
     description: ''
+  - id: 'a874e18a-42b3-49ec-8a9b-7e0fbbc5c28b'
+    name: 'POS'
+    description: ''
