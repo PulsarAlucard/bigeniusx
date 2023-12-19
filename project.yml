@@ -5,3 +5,7 @@ description: '001'
 configuration:
   id: 'biGENIUS.Implementation.Generator.VaultAndMart.Spark'
   version: '1.2.0'
+sourceSystems:
+  - id: 'ebd0779a-67bb-4fd9-9573-a23b703d786a'
+    name: 'ERP'
+    description: ''
