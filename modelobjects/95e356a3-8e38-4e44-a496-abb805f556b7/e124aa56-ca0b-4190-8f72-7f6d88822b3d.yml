@@ -1,0 +1,207 @@
+id: 'e124aa56-ca0b-4190-8f72-7f6d88822b3d'
+name: 'EMPLOYEE'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '06876066-d851-4aba-a25a-16ac018525e1'
+    name: 'EMPLOYEE_ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'edccd004-da50-401b-bd77-e0623ea30e2a'
+    name: 'JOBFUNCTION_ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '123f005d-a7ca-4220-822b-fe84682fee4c'
+    name: 'BRANCH_ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '37286a0c-e805-4fe8-baaf-945176f532cd'
+    name: 'DEPARTMENT_ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '461bdca4-2492-4d54-90d5-b6bdd926b800'
+    name: 'IS_ACTIVE_RECORD'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'e73f2649-3fcd-4a91-a1ff-4a034f847b85'
+    name: 'LAST_NAME'
+    dataType:
+      length: 100
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '5a1f9871-f84c-4c0e-a5e1-3df57b76e445'
+    name: 'FIRST_NAME'
+    dataType:
+      length: 100
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '07ba1f01-5b20-47a4-a574-24034e9a151a'
+    name: 'BIRTH_DATE'
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '18b77db0-7716-4efd-8791-7420c5205d62'
+    name: 'FIRST_HIRE_DATE'
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8538ece3-26fd-4011-8f83-e55147414fa6'
+    name: 'HIRE_START_DATE'
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '1a08a3b3-018e-424c-a4fa-334c7a50dbdc'
+    name: 'HIRE_END_DATE'
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '596a558d-c26e-4df9-9762-67e83a29d3d5'
+    name: 'INSERT_DATE'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'db17797d-7489-4db6-83de-3b9400f265a2'
+    name: 'UPDATE_DATE'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'd181bcfe-a510-4d2c-9925-2ec058784dce'
+    name: 'ADDRESS_LINE1'
+    dataType:
+      length: 100
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4e71bc6f-b52e-4156-af24-3e4a36b8654b'
+    name: 'ADDRESS_LINE2'
+    dataType:
+      length: 100
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '2268c6b2-544c-4407-a11e-b8fd625eb187'
+    name: 'ADDRESS_LINE3'
+    dataType:
+      length: 100
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0c9e2dad-e517-4838-b081-c036bfb07ee5'
+    name: 'ZIP_CODE'
+    dataType:
+      length: 20
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '34a6bda4-9ce7-48b0-86ac-f97e77f2b2cd'
+    name: 'COUNTRY'
+    dataType:
+      length: 50
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '0ee720ba-7e5c-4900-8398-0e6f36d0b680'
+    name: 'COUNTRY_ISO_CODE'
+    dataType:
+      length: 2
+      platformDataTypeId: 'dad092f6-57ce-40b1-96e0-5512772cd07e'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762'
+  - '$sourcesystem#id#a874e18a-42b3-49ec-8a9b-7e0fbbc5c28b'
+  - '$initial#name#employee'
+propertyValues: []

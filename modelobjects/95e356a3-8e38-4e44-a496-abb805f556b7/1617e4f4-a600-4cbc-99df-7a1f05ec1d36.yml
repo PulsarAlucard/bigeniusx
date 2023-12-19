@@ -1,0 +1,39 @@
+id: '1617e4f4-a600-4cbc-99df-7a1f05ec1d36'
+name: 'POS'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '6c16e154-d068-4f62-ac3e-c6ab7031ad2f'
+    name: 'POS_ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '126b6241-383d-4a32-a352-afb5cb200d1a'
+    name: 'BRANCH_ID'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '474eec94-7a92-4fa8-b340-ff7a8d987f33'
+    name: 'CASHBOX_NO'
+    dataType:
+      platformDataTypeId: 'adf8e79f-24e0-4b81-89f2-ec71569dd640'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762'
+  - '$sourcesystem#id#a874e18a-42b3-49ec-8a9b-7e0fbbc5c28b'
+  - '$initial#name#pos'
+propertyValues: []
